@@ -1,0 +1,153 @@
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.AssemblyReference.cache
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.SuggestedBindingRedirects.cache
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.CreateRoleGUI.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.CreateUserGUI.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.DangNhapGUI.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.AdminHomeGUI.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.NhanSuHomeGUI.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.fNhanVienHome.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.TruongDeAnHomeGUI.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.GiamDocHomeGUI.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.GrantRoleToUserGUI.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.GrantTableToRoleGUI.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.QLTTHomeGUI.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.RevokeRoleFromUserGUI.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.RevokeTableFromRole.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.TaiChinhGUI.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.TruongPhongHomeGUI.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.Properties.Resources.resources
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.GenerateResource.cache
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.CoreCompileInputs.cache
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\QLNHANVIEN.exe.config
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\QLNHANVIEN.exe
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\QLNHANVIEN.pdb
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\EntityFramework.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\EntityFramework.SqlServer.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\MaterialSkin.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Buffers.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Memory.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Numerics.Vectors.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Text.Encodings.Web.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Text.Json.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.ValueTuple.dll
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\EntityFramework.xml
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\EntityFramework.SqlServer.xml
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Buffers.xml
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Memory.xml
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Numerics.Vectors.xml
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Text.Encodings.Web.xml
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Text.Json.xml
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\bin\Debug\System.ValueTuple.xml
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.CopyComplete
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.exe
+D:\ATBMDB\PRJ_2\New\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.pdb
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\QLNHANVIEN.exe.config
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\QLNHANVIEN.exe
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\QLNHANVIEN.pdb
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\EntityFramework.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\EntityFramework.SqlServer.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\MaterialSkin.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Buffers.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Memory.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Numerics.Vectors.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Text.Encodings.Web.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Text.Json.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.ValueTuple.dll
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\EntityFramework.xml
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\EntityFramework.SqlServer.xml
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Buffers.xml
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Memory.xml
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Numerics.Vectors.xml
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Text.Encodings.Web.xml
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Text.Json.xml
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\bin\Debug\System.ValueTuple.xml
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.AssemblyReference.cache
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.SuggestedBindingRedirects.cache
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.CreateRoleGUI.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.CreateUserGUI.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.DangNhapGUI.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.AdminHomeGUI.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.NhanSuHomeGUI.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.fNhanVienHome.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.TruongDeAnHomeGUI.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.GiamDocHomeGUI.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.GrantRoleToUserGUI.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.GrantTableToRoleGUI.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.QLTTHomeGUI.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.RevokeRoleFromUserGUI.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.RevokeTableFromRole.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.TaiChinhGUI.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.TruongPhongHomeGUI.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.Properties.Resources.resources
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.GenerateResource.cache
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.CoreCompileInputs.cache
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.CopyComplete
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.exe
+D:\HOC_KY6_3\ATBM\bancuoi\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.pdb
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.AssemblyReference.cache
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.SuggestedBindingRedirects.cache
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.CreateRoleGUI.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.CreateUserGUI.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.DangNhapGUI.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.AdminHomeGUI.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.NhanSuHomeGUI.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.fNhanVienHome.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.TruongDeAnHomeGUI.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.GiamDocHomeGUI.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.GrantRoleToUserGUI.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.GrantTableToRoleGUI.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.QLTTHomeGUI.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.RevokeRoleFromUserGUI.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.RevokeTableFromRole.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.TaiChinhGUI.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.gui.TruongPhongHomeGUI.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.Properties.Resources.resources
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.GenerateResource.cache
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.CoreCompileInputs.cache
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.exe
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.pdb
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\QLNHANVIEN.exe.config
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\QLNHANVIEN.exe
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\QLNHANVIEN.pdb
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\EntityFramework.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\EntityFramework.SqlServer.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\MaterialSkin.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Buffers.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Memory.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Numerics.Vectors.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Text.Encodings.Web.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Text.Json.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.ValueTuple.dll
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\EntityFramework.xml
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\EntityFramework.SqlServer.xml
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Buffers.xml
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Memory.xml
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Numerics.Vectors.xml
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Text.Encodings.Web.xml
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Text.Json.xml
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\bin\Debug\System.ValueTuple.xml
+D:\HOC_KY6_3\ATBM\New folder\ATBM\QLNHANVIEN\obj\Debug\QLNHANVIEN.csproj.CopyComplete

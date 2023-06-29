@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="EntitiesDB1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DEANs" EntityType="Model.DEAN" />
+    <EntitySet Name="NHANVIENs" EntityType="Model.NHANVIEN" />
+    <EntitySet Name="PHANCONGs" EntityType="Model.PHANCONG" />
+    <EntitySet Name="PHONGBANs" EntityType="Model.PHONGBAN" />
+    <EntitySet Name="XEPHANGs" EntityType="Model.XEPHANG" />
+    <EntitySet Name="THONGBAOs" EntityType="Model.THONGBAO" />
+    <AssociationSet Name="FK_MADA_PHANCONG" Association="Model.FK_MADA_PHANCONG">
+      <End Role="DEAN" EntitySet="DEANs" />
+      <End Role="PHANCONG" EntitySet="PHANCONGs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PHONG_DEAN" Association="Model.FK_PHONG_DEAN">
+      <End Role="PHONGBAN" EntitySet="PHONGBANs" />
+      <End Role="DEAN" EntitySet="DEANs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MANQL_NHANVIEN" Association="Model.FK_MANQL_NHANVIEN">
+      <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+      <End Role="NHANVIEN1" EntitySet="NHANVIENs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MANV_PHANCONG" Association="Model.FK_MANV_PHANCONG">
+      <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+      <End Role="PHANCONG" EntitySet="PHANCONGs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PHG_NHANVIEN" Association="Model.FK_PHG_NHANVIEN">
+      <End Role="PHONGBAN" EntitySet="PHONGBANs" />
+      <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRPHG_PHONGBAN" Association="Model.FK_TRPHG_PHONGBAN">
+      <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+      <End Role="PHONGBAN" EntitySet="PHONGBANs" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="DEAN">
+    <Key>
+      <PropertyRef Name="MADA" />
+    </Key>
+    <Property Name="MADA" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENDA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NGAYBD" Type="DateTime" />
+    <Property Name="PHONG" Type="Int16" />
+    <NavigationProperty Name="PHANCONGs" Relationship="Model.FK_MADA_PHANCONG" FromRole="DEAN" ToRole="PHANCONG" />
+    <NavigationProperty Name="PHONGBAN" Relationship="Model.FK_PHONG_DEAN" FromRole="DEAN" ToRole="PHONGBAN" />
+  </EntityType>
+  <EntityType Name="NHANVIEN">
+    <Key>
+      <PropertyRef Name="MANV" />
+    </Key>
+    <Property Name="MANV" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENNV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PHAI" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="NGAYSINH" Type="DateTime" />
+    <Property Name="DIACHI" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="SODT" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="LUONG" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="PHUCAP" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="VAITRO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MANQL" Type="Int16" />
+    <Property Name="PHG" Type="Int16" />
+    <Property Name="USERNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LINHVUC" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CHINHANH" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="NHANVIEN1" Relationship="Model.FK_MANQL_NHANVIEN" FromRole="NHANVIEN" ToRole="NHANVIEN1" />
+    <NavigationProperty Name="NHANVIEN2" Relationship="Model.FK_MANQL_NHANVIEN" FromRole="NHANVIEN1" ToRole="NHANVIEN" />
+    <NavigationProperty Name="PHANCONGs" Relationship="Model.FK_MANV_PHANCONG" FromRole="NHANVIEN" ToRole="PHANCONG" />
+    <NavigationProperty Name="PHONGBAN" Relationship="Model.FK_PHG_NHANVIEN" FromRole="NHANVIEN" ToRole="PHONGBAN" />
+    <NavigationProperty Name="PHONGBANs" Relationship="Model.FK_TRPHG_PHONGBAN" FromRole="NHANVIEN" ToRole="PHONGBAN" />
+  </EntityType>
+  <EntityType Name="PHANCONG">
+    <Key>
+      <PropertyRef Name="MANV" />
+      <PropertyRef Name="MADA" />
+    </Key>
+    <Property Name="MANV" Type="Int16" Nullable="false" />
+    <Property Name="MADA" Type="Int16" Nullable="false" />
+    <Property Name="THOIGIAN" Type="DateTime" />
+    <NavigationProperty Name="DEAN" Relationship="Model.FK_MADA_PHANCONG" FromRole="PHANCONG" ToRole="DEAN" />
+    <NavigationProperty Name="NHANVIEN" Relationship="Model.FK_MANV_PHANCONG" FromRole="PHANCONG" ToRole="NHANVIEN" />
+  </EntityType>
+  <EntityType Name="PHONGBAN">
+    <Key>
+      <PropertyRef Name="MAPB" />
+    </Key>
+    <Property Name="MAPB" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENPB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TRPHG" Type="Int16" />
+    <NavigationProperty Name="DEANs" Relationship="Model.FK_PHONG_DEAN" FromRole="PHONGBAN" ToRole="DEAN" />
+    <NavigationProperty Name="NHANVIENs" Relationship="Model.FK_PHG_NHANVIEN" FromRole="PHONGBAN" ToRole="NHANVIEN" />
+    <NavigationProperty Name="NHANVIEN" Relationship="Model.FK_TRPHG_PHONGBAN" FromRole="PHONGBAN" ToRole="NHANVIEN" />
+  </EntityType>
+  <EntityType Name="XEPHANG">
+    <Key>
+      <PropertyRef Name="MA" />
+    </Key>
+    <Property Name="MA" Type="Int16" Nullable="false" />
+    <Property Name="DIEM" Type="Binary" MaxLength="128" FixedLength="false" />
+    <Property Name="THANHTICH" Type="Int16" />
+  </EntityType>
+  <EntityType Name="THONGBAO">
+    <Key>
+      <PropertyRef Name="MATB" />
+    </Key>
+    <Property Name="MATB" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOIDUNG" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="THOIGIAN" Type="DateTime" />
+    <Property Name="VAITRO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LINHVUC" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="CHINHANH" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="OLS_COLUMN" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_MADA_PHANCONG">
+    <End Type="Model.DEAN" Role="DEAN" Multiplicity="1" />
+    <End Type="Model.PHANCONG" Role="PHANCONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DEAN">
+        <PropertyRef Name="MADA" />
+      </Principal>
+      <Dependent Role="PHANCONG">
+        <PropertyRef Name="MADA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PHONG_DEAN">
+    <End Type="Model.PHONGBAN" Role="PHONGBAN" Multiplicity="0..1" />
+    <End Type="Model.DEAN" Role="DEAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PHONGBAN">
+        <PropertyRef Name="MAPB" />
+      </Principal>
+      <Dependent Role="DEAN">
+        <PropertyRef Name="PHONG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MANQL_NHANVIEN">
+    <End Type="Model.NHANVIEN" Role="NHANVIEN" Multiplicity="0..1" />
+    <End Type="Model.NHANVIEN" Role="NHANVIEN1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MANV" />
+      </Principal>
+      <Dependent Role="NHANVIEN1">
+        <PropertyRef Name="MANQL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MANV_PHANCONG">
+    <End Type="Model.NHANVIEN" Role="NHANVIEN" Multiplicity="1" />
+    <End Type="Model.PHANCONG" Role="PHANCONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MANV" />
+      </Principal>
+      <Dependent Role="PHANCONG">
+        <PropertyRef Name="MANV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PHG_NHANVIEN">
+    <End Type="Model.PHONGBAN" Role="PHONGBAN" Multiplicity="0..1" />
+    <End Type="Model.NHANVIEN" Role="NHANVIEN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PHONGBAN">
+        <PropertyRef Name="MAPB" />
+      </Principal>
+      <Dependent Role="NHANVIEN">
+        <PropertyRef Name="PHG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRPHG_PHONGBAN">
+    <End Type="Model.NHANVIEN" Role="NHANVIEN" Multiplicity="0..1" />
+    <End Type="Model.PHONGBAN" Role="PHONGBAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MANV" />
+      </Principal>
+      <Dependent Role="PHONGBAN">
+        <PropertyRef Name="TRPHG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
